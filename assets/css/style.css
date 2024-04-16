@@ -1,0 +1,45 @@
+*{
+    background-color: rgb(189, 249, 201);
+}
+#headBorder{
+    width: 98vw;
+    height: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), black 20%, black 80%, rgba(0, 0, 0, 0));
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 3rem;
+    background-color: green;
+    color: rgba(255, 255, 255, 0.859);
+    padding: 0 100px;
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 6px 5px rgba(0, 255, 51, 0.672);
+}
+.headLabel, .weather-now{
+    background-color: green;
+    font-size: 20px;
+    padding: 10px;
+    color:rgba(255, 255, 255, 0.859);
+    border-radius: 5px;
+}
+#search-btn{
+    padding: 5px 10px 5px 10px;
+}
+.forecast-item{
+    display: inline-block;
+    background-color: green;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+}
+.saved-city{
+    background-color: rgb(21, 177, 21);
+    margin-bottom: 5px;
+    border-radius: 4px;
+    padding: 4px 7px 4px 7px;
+    display: inline-block;
+    margin-right: 13px;
+}
